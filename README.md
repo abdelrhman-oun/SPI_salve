@@ -14,12 +14,12 @@ Specifications:
 
 
 I/O ports description:
-  Input ports:
+  -- Input ports:
   - **SS**: Slave select active low pin, it acts as asynchronous active high reset and enables the slave to communicate with the master.
   - **SCLK**: Serial Clock, master generates this clock for the communication.
   - **MOSI**: Master output Slave input, Master transmit data through this pin.
   - **Rd_Data**: Read data bus, this bus holds the data form register file which located in the address on the Address bus.
-  Output ports:
+  -- Output ports:
   - **MISO**: Master input Slave output, Slave transmit data through this pin.
   - **Address**: contains the Address that the slave will read from or write on.
   - **Wr_Data**: Write Data bus, this bus holds the data received from the master that will be written on the register file.
